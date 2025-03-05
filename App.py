@@ -6,7 +6,7 @@ import joblib
 
 # Load the trained model
 with open("new.pkl", "rb") as file:
-    model = pickle.load(file)
+    model = joblib.load(file)
 
 # Streamlit UI
 st.title("Exceltr Sentiment Analysis")
