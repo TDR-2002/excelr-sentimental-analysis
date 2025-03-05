@@ -1,12 +1,11 @@
 import streamlit as st
 import pickle
 import pandas as pd
-import joblib
 
 
 # Load the trained model
 with open("new.pkl", "rb") as file:
-    model = joblib.load(file)
+    model = pickle.load(file)
 
 # Streamlit UI
 st.title("Exceltr Sentiment Analysis")
