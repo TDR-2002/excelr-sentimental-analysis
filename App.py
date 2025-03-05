@@ -1,9 +1,11 @@
 import streamlit as st
 import pickle
 import pandas as pd
+import joblib
+
 
 # Load the trained model
-with open("sentiment_model.pkl", "rb") as file:
+with open("new.pkl", "rb") as file:
     model = pickle.load(file)
 
 # Streamlit UI
