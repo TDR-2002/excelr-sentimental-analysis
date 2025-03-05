@@ -1,0 +1,4 @@
+streamlit
+pandas
+scikit-learn  # If using ML models
+openpyxl  # For Excel file processing
